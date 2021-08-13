@@ -34,4 +34,17 @@ p {
 
 .main {
   margin: 117px 58px;
+  text-align: center;
+}
+
+.btn-home {
+  background: #f3b0e1;
+  border-radius: 4px;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-home:hover {
+  color: #f3b0e1;
+  background: black;
+  transition: 400ms ease-in-out;
 }
