@@ -2,12 +2,32 @@ body {
   background-image: linear-gradient(
     to right,
     #f78ca0 0%,
-    #f9748f 19%,
-    #fd868c 60%,
+    #fd9292 19%,
     #fe9a8b 100%
   );
 }
 
 h1 {
-  color: red;
+  color: #f3b0e1;
+  font-family: "Playfair Display", serif;
+  font-size: 96px;
+  text-align: center;
+}
+
+h2,
+p {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+p {
+  font-size: 24px;
+  padding-bottom: 20px;
 }
