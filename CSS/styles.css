@@ -81,6 +81,15 @@ h3 {
   margin: 0px 0px 0px -20px;
 }
 
+.btn-contact {
+  color: white;
+  background: #fdd2cc;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  margin: -46px 20px 20px 120px;
+  font-size: 25px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 50px;
@@ -100,6 +109,13 @@ h3 {
 
   .about-bio {
     text-align: center;
+  }
+
+  .btn-contact {
+    color: white;
+    background: #fdd2cc;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
   }
 }
 
@@ -137,4 +153,23 @@ h3 {
 
 .work-page-weather-image {
   margin-top: -17px;
+}
+
+.contact-section {
+  background: rgba(253, 210, 204, 0.44);
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.contact-section h1 {
+  margin-top: 18px;
+  margin-left: 28px;
+}
+
+.contact-section p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
 }
