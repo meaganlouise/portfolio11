@@ -30,9 +30,21 @@ h3 {
   line-height: 85px;
 }
 
+.active {
+  color: #f3b0e1 !important;
+}
+
+.link-dark:hover {
+  color: #f3b0e1;
+}
+
 .nav-item {
   font-family: "Poppins", sans-serif;
-  color: #f3b0e1;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: #f3b0e1 !important;
 }
 
 .main {
