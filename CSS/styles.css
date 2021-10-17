@@ -30,6 +30,10 @@ h3 {
   line-height: 85px;
 }
 
+h4 {
+  font-size: 30px;
+}
+
 .active {
   color: #f3b0e1 !important;
 }
@@ -102,7 +106,7 @@ h3 {
   font-size: 25px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 900px) {
   h1 {
     font-size: 50px;
   }
@@ -187,7 +191,17 @@ h3 {
 }
 
 footer {
-  margin: 60px 0;
+  margin: 60px 20px;
+}
+
+footer .contact-box {
+  background: #f4e5e3;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 footer .email-link {
